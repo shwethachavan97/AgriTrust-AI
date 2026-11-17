@@ -1,0 +1,136 @@
+import type { LanguageCode } from '../types/agritrust.ts';
+
+export const translations = {
+  en: {
+    brand: 'AgriTrust AI',
+    tagline: 'AI-Assisted Crop Diagnosis. Expert-Verified Agricultural Guidance.',
+    navProblem: 'Problem',
+    navHowItWorks: 'How It Works',
+    navAiDiagnosis: 'AI Diagnosis',
+    navVerification: 'Verification',
+    navKnowledge: 'Knowledge',
+    navFaq: 'FAQ',
+    heroTitle: 'Smarter Crop Diagnosis. Trusted Agricultural Guidance.',
+    heroDescription:
+      'Combining Artificial Intelligence with qualified agricultural expertise to help farmers make better-informed crop management decisions.',
+    primaryCta: 'Diagnose Your Crop',
+    secondaryCta: 'Join as an Agriculture Expert',
+    signIn: 'Sign In',
+    openDashboard: 'Open Workspace',
+    signOut: 'Sign Out',
+    languageLabel: 'Language',
+    demoNotice:
+      'Demonstration accounts & sample cases are clearly marked. Critical clinical guidance is never machine-translated automatically.',
+    problemHeading: 'Why AI Alone Is Never Enough in the Field',
+    problemSub:
+      'Unverified automated predictions risk misidentifying nutrient stress, overlapping fungal lesions, or unsafe pesticide usage. Farmers deserve speed paired with accountable human agronomy.',
+    howHeading: 'Human-in-the-Loop Diagnostic Workflow',
+    howSub:
+      'Every crop case progresses through transparent checkpoints so farmers always know what is preliminary AI observation and what is expert-verified advice.',
+    aiSectionHeading: 'Structured Preliminary AI Triage',
+    aiSectionSub:
+      'AI prepares differential possibilities, highlights supporting visual evidence, states uncertainty honestly, and flags missing field context for the reviewing agronomist.',
+    expertSectionHeading: 'Credential-Verified Expert Sign-Off',
+    expertSectionSub:
+      'Only credential-verified plant pathologists and agronomists can approve, correct, or reject AI findings and publish crop protection recommendations.',
+    benefitsHeading: 'Built for Smallholder Clarity & Agronomic Accountability',
+    collabHeading: 'Agricultural Knowledge & Expert Collaboration',
+    faqHeading: 'Frequently Asked Questions',
+    // Dashboards
+    overview: 'Overview',
+    diagnoseCrop: 'Diagnose Crop',
+    myCases: 'My Cases',
+    expertConsultation: 'Expert Consultation',
+    notifications: 'Notifications',
+    profile: 'Profile',
+    helpSupport: 'Help & Support',
+    pendingCases: 'Pending Cases',
+    inReview: 'In Review',
+    completedCases: 'Completed Cases',
+    followUps: 'Follow-ups',
+    knowledgeResources: 'Knowledge Resources',
+    professionalProfile: 'Professional Profile',
+    dashboardOverview: 'Dashboard Overview',
+    farmerManagement: 'Farmer Management',
+    expertVerification: 'Expert Verification',
+    caseManagement: 'Case Management',
+    cropManagement: 'Crop Management',
+    knowledgeDatabase: 'Knowledge Database',
+    analytics: 'Analytics',
+    systemSettings: 'System Settings',
+    submitDiagnosis: 'Submit Crop Diagnosis Request',
+    awaitingVerificationBadge: 'Awaiting Qualified Expert Verification',
+    expertVerifiedBadge: 'Expert Verified Guidance',
+    preliminaryAiHeader: 'Preliminary AI Analysis (Not Final Diagnosis)',
+    expertReviewHeader: 'Expert Verification & Reviewed Guidance',
+  },
+  kn: {
+    brand: 'AgriTrust AI',
+    tagline: 'AI ನೆರವಿನ ಬೆಳೆ ರೋಗ ನಿರ್ಣಯ. ತಜ್ಞರಿಂದ ಪರಿಶೀಲಿಸಲ್ಪಟ್ಟ ಕೃಷಿ ಮಾರ್ಗದರ್ಶನ.',
+    navProblem: 'ಸಮಸ್ಯೆ',
+    navHowItWorks: 'ಕಾರ್ಯವಿಧಾನ',
+    navAiDiagnosis: 'AI ವಿಶ್ಲೇಷಣೆ',
+    navVerification: 'ತಜ್ಞರ ಪರಿಶೀಲನೆ',
+    navKnowledge: 'ಕೃಷಿ ಜ್ಞಾನ',
+    navFaq: 'ಪ್ರಶ್ನೋತ್ತರ',
+    heroTitle: 'ಚುರುಕಾದ ಬೆಳೆ ರೋಗ ನಿರ್ಣಯ. ವಿಶ್ವಾಸಾರ್ಹ ಕೃಷಿ ಮಾರ್ಗದರ್ಶನ.',
+    heroDescription:
+      'ರೈತರು ಉತ್ತಮ ಬೆಳೆ ನಿರ್ವಹಣಾ ನಿರ್ಧಾರಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಲು ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆಯನ್ನು ಅರ್ಹ ಕೃಷಿ ತಜ್ಞರ ಅನುಭವದೊಂದಿಗೆ ಸಂಯೋಜಿಸುವ ವೇದಿಕೆ.',
+    primaryCta: 'ನಿಮ್ಮ ಬೆಳೆಯನ್ನು ಪರೀಕ್ಷಿಸಿ',
+    secondaryCta: 'ಕೃಷಿ ತಜ್ಞರಾಗಿ ಸೇರಿ',
+    signIn: 'ಲಾಗಿನ್ ಆಗಿ',
+    openDashboard: 'ಕಾರ್ಯಕ್ಷೇತ್ರ ತೆರೆಯಿರಿ',
+    signOut: 'ಲಾಗ್ ಔಟ್',
+    languageLabel: 'ಭಾಷೆ',
+    demoNotice:
+      'ಪ್ರಾಯೋಗಿಕ ಖಾತೆಗಳು ಮತ್ತು ಮಾದರಿ ಪ್ರಕರಣಗಳನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ಗುರುತಿಸಲಾಗಿದೆ. ತಜ್ಞರು ಪರಿಶೀಲಿಸಿದ ನಿರ್ಣಾಯಕ ಕೃಷಿ ಸಲಹೆಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅನುವಾದಿಸಲಾಗುವುದಿಲ್ಲ.',
+    problemHeading: 'ಕೃಷಿ ಕ್ಷೇತ್ರದಲ್ಲಿ ಕೇವಲ AI ಏಕೆ ಸಾಕಾಗುವುದಿಲ್ಲ?',
+    problemSub:
+      'ಪರಿಶೀಲಿಸದ ಸ್ವಯಂಚಾಲಿತ ಅಂದಾಜುಗಳು ಪೋಷಕಾಂಶ ಕೊರತೆ ಅಥವಾ ರೋಗಗಳನ್ನು ತಪ್ಪಾಗಿ ಗುರುತಿಸುವ ಅಪಾಯ ಹೊಂದಿರುತ್ತವೆ. ರೈತರಿಗೆ ವೇಗದ ಜೊತೆಗೆ ಜವಾಬ್ದಾರಿಯುತ ತಜ್ಞರ ದೃಢೀಕರಣ ಅಗತ್ಯವಿದೆ.',
+    howHeading: 'ಮಾನವ-ತಜ್ಞರ ಪರಿಶೀಲನಾ ಕಾರ್ಯವಿಧಾನ',
+    howSub:
+      'ಪ್ರತಿಯೊಂದು ಬೆಳೆ ಪ್ರಕರಣವು ಪಾರದರ್ಶಕ ಹಂತಗಳ ಮೂಲಕ ಸಾಗುತ್ತದೆ; ಯಾವುದು ಪ್ರಾಥಮಿಕ AI ವರದಿ ಮತ್ತು ಯಾವುದು ತಜ್ಞರು ದೃಢೀಕರಿಸಿದ ಸಲಹೆ ಎಂಬುದು ಸ್ಪಷ್ಟವಾಗಿರುತ್ತದೆ.',
+    aiSectionHeading: 'ವ್ಯವಸ್ಥಿತ ಪ್ರಾಥಮಿಕ AI ವಿಶ್ಲೇಷಣೆ',
+    aiSectionSub:
+      'AI ಸಂಭಾವ್ಯ ಕಾರಣಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡುತ್ತದೆ, ಅನಿಶ್ಚಿತತೆಯನ್ನು ಪ್ರಾಮಾಣಿಕವಾಗಿ ತೋರಿಸುತ್ತದೆ ಮತ್ತು ತಜ್ಞರಿಗೆ ಅಗತ್ಯವಿರುವ ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಯನ್ನು ಗುರುತಿಸುತ್ತದೆ.',
+    expertSectionHeading: 'ಅರ್ಹ ಕೃಷಿ ತಜ್ಞರಿಂದ ದೃಢೀಕರಣ',
+    expertSectionSub:
+      'ಪ್ರಮಾಣೀಕೃತ ಸಸ್ಯ ರೋಗಶಾಸ್ತ್ರಜ್ಞರು ಮತ್ತು ಕೃಷಿ ತಜ್ಞರು ಮಾತ್ರ AI ವರದಿಯನ್ನು ಅನುಮೋದಿಸಬಹುದು, ತಿದ್ದುಪಡಿ ಮಾಡಬಹುದು ಅಥವಾ ನಿರಾಕರಿಸಬಹುದು.',
+    benefitsHeading: 'ರೈತರ ಸ್ಪಷ್ಟತೆ ಮತ್ತು ಕೃಷಿ ವಿಶ್ವಾಸಾರ್ಹತೆಗಾಗಿ ನಿರ್ಮಿತ',
+    collabHeading: 'ಕೃಷಿ ಜ್ಞಾನ ಭಂಡಾರ ಮತ್ತು ತಜ್ಞರ ಸಹಯೋಗ',
+    faqHeading: 'ಪದೇ ಪದೇ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು',
+    // Dashboards
+    overview: 'ಅವಲೋಕನ',
+    diagnoseCrop: 'ಬೆಳೆ ಪರೀಕ್ಷೆ',
+    myCases: 'ನನ್ನ ಪ್ರಕರಣಗಳು',
+    expertConsultation: 'ತಜ್ಞರ ಸಮಾಲೋಚನೆ',
+    notifications: 'ಸೂಚನೆಗಳು',
+    profile: 'ಪ್ರೊಫೈಲ್',
+    helpSupport: 'ಸಹಾಯ ಮತ್ತು ಬೆಂಬಲ',
+    pendingCases: 'ಬಾಕಿ ಪ್ರಕರಣಗಳು',
+    inReview: 'ಪರಿಶೀಲನೆಯಲ್ಲಿ',
+    completedCases: 'ಪೂರ್ಣಗೊಂಡ ಪ್ರಕರಣಗಳು',
+    followUps: 'ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ',
+    knowledgeResources: 'ಜ್ಞಾನ ಸಂಪನ್ಮೂಲಗಳು',
+    professionalProfile: 'ವೃತ್ತಿಪರ ಪ್ರೊಫೈಲ್',
+    dashboardOverview: 'ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ಅವಲೋಕನ',
+    farmerManagement: 'ರೈತರ ನಿರ್ವಹಣೆ',
+    expertVerification: 'ತಜ್ಞರ ದೃಢೀಕರಣ',
+    caseManagement: 'ಪ್ರಕರಣಗಳ ನಿರ್ವಹಣೆ',
+    cropManagement: 'ಬೆಳೆಗಳ ನಿರ್ವಹಣೆ',
+    knowledgeDatabase: 'ಕೃಷಿ ಜ್ಞಾನ ಡೇಟಾಬೇಸ್',
+    analytics: 'ವಿಶ್ಲೇಷಣೆ',
+    systemSettings: 'ವ್ಯವಸ್ಥೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು',
+    submitDiagnosis: 'ಬೆಳೆ ರೋಗ ನಿರ್ಣಯ ವಿನಂತಿ ಸಲ್ಲಿಸಿ',
+    awaitingVerificationBadge: 'ಅರ್ಹ ತಜ್ಞರ ಪರಿಶೀಲನೆಗೆ ಕಾಯುತ್ತಿದೆ',
+    expertVerifiedBadge: 'ತಜ್ಞರಿಂದ ದೃಢೀಕರಿಸಿದ ಮಾರ್ಗದರ್ಶನ',
+    preliminaryAiHeader: 'ಪ್ರಾಥಮಿಕ AI ವಿಶ್ಲೇಷಣೆ (ಅಂತಿಮ ನಿರ್ಣಯವಲ್ಲ)',
+    expertReviewHeader: 'ತಜ್ಞರ ಪರಿಶೀಲನೆ ಮತ್ತು ಅನುಮೋದಿತ ಮಾರ್ಗದರ್ಶನ',
+  },
+} as const;
+
+export type TranslationKey = keyof typeof translations.en;
+
+export function t(lang: LanguageCode, key: TranslationKey): string {
+  return translations[lang]?.[key] ?? translations.en[key];
+}

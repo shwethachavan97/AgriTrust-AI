@@ -1,0 +1,8 @@
+{
+  "name": "AgriTrust AI",
+  "description": "AI-Assisted Crop Diagnosis and Expert-Verified Agricultural Guidance Platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
